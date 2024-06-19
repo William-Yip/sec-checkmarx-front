@@ -1,0 +1,15 @@
+:root {
+  --bg-main: url('https://checkmarx.com/wp-content/themes/checkmarx/assets/images/page-get-a-demo/section-registration/bg-main.webp');
+  --bg-ellipse: url('https://checkmarx.com/wp-content/themes/checkmarx/assets/images/page-get-a-demo/section-registration/bg-elipce.svg');
+}
+
+.app-main {
+  height: 100vh;
+  width: 100vw;
+  background-image: var(--bg-main), var(--bg-ellipse);
+  background-position: center, bottom right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, contain;
+  display: grid;
+  justify-items: center;
+}

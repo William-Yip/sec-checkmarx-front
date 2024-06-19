@@ -1,0 +1,39 @@
+{
+  "scan": [
+    {
+      "id": 1,
+      "file": "/home/william-yip/workspace/sec-checkmarx/test/test_source.go",
+      "details": "Use of weak cryptographic primitive",
+      "line": "14",
+      "column": "10"
+    },
+    {
+      "id": 2,
+      "file": "/home/william-yip/workspace/sec-checkmarx/test/test_source.go",
+      "details": "Use of net/http serve function that has no support for setting timeouts",
+      "line": "50",
+      "column": "2"
+    },
+    {
+      "id": 3,
+      "file": "/home/william-yip/workspace/sec-checkmarx/test/test_source.go",
+      "details": "SQL string formatting",
+      "line": "27",
+      "column": "12"
+    },
+    {
+      "id": 4,
+      "file": "/home/william-yip/workspace/sec-checkmarx/test/test_source.go",
+      "details": "Blocklisted import crypto/md5: weak cryptographic primitive",
+      "line": "4",
+      "column": "2"
+    },
+    {
+      "id": 5,
+      "file": "/home/william-yip/workspace/sec-checkmarx/test/test_source.go",
+      "details": "Errors unhandled.",
+      "line": "50",
+      "column": "2"
+    }
+  ]
+}
